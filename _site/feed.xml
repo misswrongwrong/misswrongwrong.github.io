@@ -5,8 +5,8 @@
     <description>Vno Jekyll is a port of my Ghost theme vno.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Dec 2017 19:44:54 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Dec 2017 19:44:54 -0700</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2017 19:49:24 -0700</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 19:49:24 -0700</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -15,39 +15,7 @@
 &lt;strong&gt;用心去聆听，去感受，&lt;/strong&gt; &lt;br /&gt;
 &lt;strong&gt;读懂人心，就是读懂世界。&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;#![ ](url(‘/pics/test.jpg’ )&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.express.co.uk/pictures/pics/1939/Man-and-nature-meet&quot;&gt;&lt;em&gt;图片来源&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--
-
-&lt;a href=&quot;https://www.youtube.com/watch?v=_W5RvymhYlI&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot; 
-alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;
-
-&lt;a href=&quot;https://www.youtube.com/watch?v=1GN04W9lJMk&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot; 
-alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;
-
-
-##read[cmd-markdown](https://www.zybuluo.com/mdeditor)
-
-##read[jekyll-organization](http://jekyll.com.cn/docs/structure/)
---&gt;
-
-</description>
-        <pubDate>Thu, 12 Jan 2017 03:11:11 -0700</pubDate>
-        <link>http://localhost:4000/2017/01/test_first/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/test_first/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>我的第一篇Blog</title>
-        <description>&lt;p&gt;&lt;strong&gt;世界在人的心里&lt;/strong&gt;，&lt;br /&gt;
-&lt;strong&gt;用心去聆听，去感受，&lt;/strong&gt; &lt;br /&gt;
-&lt;strong&gt;读懂人心，就是读懂世界。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://misswrongwrong.github.io/pics/test.jpg&quot; alt=&quot;useful image&quot; /&gt;
+&lt;p&gt;#&lt;img src=&quot;https://misswrongwrong.github.io/pics/test.jpg&quot; alt=&quot;useful image&quot; /&gt;
 #![ ](url(‘/pics/test.jpg’ )&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.express.co.uk/pictures/pics/1939/Man-and-nature-meet&quot;&gt;&lt;em&gt;图片来源&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
@@ -70,6 +38,39 @@ alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot;
         <pubDate>Tue, 03 Jan 2017 03:11:11 -0700</pubDate>
         <link>http://localhost:4000/2017/01/pics/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/01/pics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>我的第一篇Blog</title>
+        <description>&lt;p&gt;&lt;strong&gt;世界在人的心里&lt;/strong&gt;，&lt;br /&gt;
+&lt;strong&gt;用心去聆听，去感受，&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;读懂人心，就是读懂世界。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/avatar.jpg&quot; alt=&quot;useful image&quot; /&gt;
+#![ ](url(‘/pics/test.jpg’ )&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.express.co.uk/pictures/pics/1939/Man-and-nature-meet&quot;&gt;&lt;em&gt;图片来源&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+
+&lt;a href=&quot;https://www.youtube.com/watch?v=_W5RvymhYlI&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot; 
+alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;
+
+&lt;a href=&quot;https://www.youtube.com/watch?v=1GN04W9lJMk&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot; 
+alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;
+
+
+##read[cmd-markdown](https://www.zybuluo.com/mdeditor)
+
+##read[jekyll-organization](http://jekyll.com.cn/docs/structure/)
+--&gt;
+
+</description>
+        <pubDate>Mon, 02 Jan 2017 03:11:11 -0700</pubDate>
+        <link>http://localhost:4000/2017/01/test_first/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/test_first/</guid>
         
         
       </item>

@@ -8,7 +8,7 @@ date: 2017-01-02 11:11:11.000000000 +01:00
 **用心去聆听，去感受，** \\
 **读懂人心，就是读懂世界。**
 
-![useful image]({{ https://misswrongwrong.github.io }}/assets/images/avatar.jpg)
+![useful image](/assets/images/avatar.jpg)
 #![ ](url('/pics/test.jpg' )
 
 
