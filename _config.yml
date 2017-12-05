@@ -32,6 +32,7 @@ paginate_path: "page/:num/"
 
 # latex
 markdown: kramdown
+mathjax: true
 
 excerpt_separator: ""
 
