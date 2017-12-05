@@ -1,15 +1,17 @@
 ---
 layout: post
 title: 我的第一篇Blog
-date: 2017-01-02 11:11:11.000000000 +01:00
+date: 2017-01-12 11:11:11.000000000 +01:00
+categories: reading
+tags: Reading
 ---
 
 **世界在人的心里**，\\
 **用心去聆听，去感受，** \\
 **读懂人心，就是读懂世界。**
 
-![useful image](/assets/images/avatar.jpg)
-#![ ](url('/pics/test.jpg' )
+
+![ ](/assets/images/test.jpg )
 
 
 [*图片来源*](https://www.express.co.uk/pictures/pics/1939/Man-and-nature-meet) 
