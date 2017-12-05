@@ -177,13 +177,15 @@
   </li>
 </ul>
 
-<script type="math/tex; mode=display">a^2 + b^2 = c^2</script>
+<p><strong>1. 强化学习(reinforcement learning）符号表示</strong> <br />
+强化学习的结果是机器接收观测或状态，经过一定策略来产生行为的，如图1所示。其中，<script type="math/tex">o_t</script> 表示t时刻的观测，<script type="math/tex">s_t</script>表示t时刻的状态，<script type="math/tex">a_t</script>表示t时刻机器人采取的动作, <script type="math/tex">\pi_{\theta}(a_t|o_t)</script>表示基于观测的动作策略。策略有决定策略(Determitistic Policy)和随机策略(Stochastic Policy)两种。决定策略：在观测值为<script type="math/tex">o_t</script>时，机器人一定执行动作a，<script type="math/tex">a_t = \pi_{\theta}(o_t)</script>。随机策略：在观测值<script type="math/tex">o_t</script>时，机器人执行a的概率是<script type="math/tex">\pi_{\theta}(a_t|o_t) </script>。</p>
 
-<p>**1. 强化学习(reinforcement learning）符号。
-强化学习的结果是机器接受观测或状态，经过一定策略来产生行为的，如图1所示。,其中，<script type="math/tex">o\_t</script> 表示t时刻的观测， <script type="math/tex">x_t</script> 表示t时刻的状态，</p>
+<p>其中 <script type="math/tex">o_t</script> 和 <script type="math/tex">s_t</script> 不同为： <script type="math/tex">o_t</script> 往往表示机器所感知到的信息（如由像素组成的图像），而 <script type="math/tex">s_t</script> 表示外界环境实际所处的状态（如物体运动的速度，物体相对位置等）。它们不一定能观测到，是高维像素的低维内在表示，而且状态是满足马尔科夫性质的，但观测就不一定满足了。当环境是完全可观测的（fully observable)，<script type="math/tex">s_t</script>和<script type="math/tex">o_t</script>就是等同的。然而，如果环境是部分可观测的(partially observable)，机器人获得到的就不是直接的环境状态。</p>
 
-<p>我们之后所用的是马尔可夫决策过程（Markov Decision Processes，MDP）即假设当前状态只与上一状态和动作有关，图1中</p>
+<p>图1下方描述的是马尔可夫决策过程（Markov Decision Processes，MDP）, 即假设当前状态只与上一状态和动作有关。
+<script type="math/tex">p(s_{t+1} | s_t, a_t)</script>表示状态转移函数，<script type="math/tex">s_{t+1}</script>仅和<script type="math/tex">s_t</script>与<script type="math/tex">a_t</script>有关。</p>
 
+<p><img src="/assets/images/DRL2-1.png" alt="Fig. 1" title="DRL" /></p>
 
   </section>
 </article>

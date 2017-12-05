@@ -5,8 +5,8 @@
     <description>AI, Programming, Reading, Gym and Beautiful things.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Dec 2017 22:00:34 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Dec 2017 22:00:34 -0700</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2017 22:36:41 -0700</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 22:36:41 -0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -25,13 +25,15 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;1. 强化学习(reinforcement learning）符号表示&lt;/strong&gt; &lt;br /&gt;
+强化学习的结果是机器接收观测或状态，经过一定策略来产生行为的，如图1所示。其中，&lt;script type=&quot;math/tex&quot;&gt;o_t&lt;/script&gt; 表示t时刻的观测，&lt;script type=&quot;math/tex&quot;&gt;s_t&lt;/script&gt;表示t时刻的状态，&lt;script type=&quot;math/tex&quot;&gt;a_t&lt;/script&gt;表示t时刻机器人采取的动作, &lt;script type=&quot;math/tex&quot;&gt;\pi_{\theta}(a_t|o_t)&lt;/script&gt;表示基于观测的动作策略。策略有决定策略(Determitistic Policy)和随机策略(Stochastic Policy)两种。决定策略：在观测值为&lt;script type=&quot;math/tex&quot;&gt;o_t&lt;/script&gt;时，机器人一定执行动作a，&lt;script type=&quot;math/tex&quot;&gt;a_t = \pi_{\theta}(o_t)&lt;/script&gt;。随机策略：在观测值&lt;script type=&quot;math/tex&quot;&gt;o_t&lt;/script&gt;时，机器人执行a的概率是&lt;script type=&quot;math/tex&quot;&gt;\pi_{\theta}(a_t|o_t) &lt;/script&gt;。&lt;/p&gt;
 
-&lt;p&gt;**1. 强化学习(reinforcement learning）符号。
-强化学习的结果是机器接受观测或状态，经过一定策略来产生行为的，如图1所示。,其中，&lt;script type=&quot;math/tex&quot;&gt;o\_t&lt;/script&gt; 表示t时刻的观测， &lt;script type=&quot;math/tex&quot;&gt;x_t&lt;/script&gt; 表示t时刻的状态，&lt;/p&gt;
+&lt;p&gt;其中 &lt;script type=&quot;math/tex&quot;&gt;o_t&lt;/script&gt; 和 &lt;script type=&quot;math/tex&quot;&gt;s_t&lt;/script&gt; 不同为： &lt;script type=&quot;math/tex&quot;&gt;o_t&lt;/script&gt; 往往表示机器所感知到的信息（如由像素组成的图像），而 &lt;script type=&quot;math/tex&quot;&gt;s_t&lt;/script&gt; 表示外界环境实际所处的状态（如物体运动的速度，物体相对位置等）。它们不一定能观测到，是高维像素的低维内在表示，而且状态是满足马尔科夫性质的，但观测就不一定满足了。当环境是完全可观测的（fully observable)，&lt;script type=&quot;math/tex&quot;&gt;s_t&lt;/script&gt;和&lt;script type=&quot;math/tex&quot;&gt;o_t&lt;/script&gt;就是等同的。然而，如果环境是部分可观测的(partially observable)，机器人获得到的就不是直接的环境状态。&lt;/p&gt;
 
-&lt;p&gt;我们之后所用的是马尔可夫决策过程（Markov Decision Processes，MDP）即假设当前状态只与上一状态和动作有关，图1中&lt;/p&gt;
+&lt;p&gt;图1下方描述的是马尔可夫决策过程（Markov Decision Processes，MDP）, 即假设当前状态只与上一状态和动作有关。
+&lt;script type=&quot;math/tex&quot;&gt;p(s_{t+1} | s_t, a_t)&lt;/script&gt;表示状态转移函数，&lt;script type=&quot;math/tex&quot;&gt;s_{t+1}&lt;/script&gt;仅和&lt;script type=&quot;math/tex&quot;&gt;s_t&lt;/script&gt;与&lt;script type=&quot;math/tex&quot;&gt;a_t&lt;/script&gt;有关。&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/assets/images/DRL2-1.png&quot; alt=&quot;Fig. 1&quot; title=&quot;DRL&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Jan 2017 12:45:00 -0700</pubDate>
         <link>http://localhost:4000/2017/01/DRL2/</link>
