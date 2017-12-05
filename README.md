@@ -1,12 +1,18 @@
 # Vno - Jekyll
-
 [Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
 
-## Live Demo
+## Running
+$ bundle exec jekyll serve
 
-See [Vno - Jekyll](http://vno.onevcat.com) site and [my blog](http://onevcat.com).
+## My website 
+https://misswrongwrong.github.io
 
-You can also find some instruction as well as other sites using Vno theme in [this page](http://vno.onevcat.com/2016/02/hello-world-vno/).
+## tag cloud 
+see [blog1](https://blog.meinside.pe.kr/Adding-tag-cloud-and-archives-page-to-Jekyll/)
+see [blog2](https://superdevresources.com/tag-cloud-jekyll/)
+
+## latex
+see [post] (https://stackoverflow.com/questions/10987992/using-mathjax-with-jekyll)
 
 ## Licence
 

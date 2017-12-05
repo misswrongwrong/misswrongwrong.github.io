@@ -30,7 +30,10 @@ gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "page/:num/"
 
+# latex
+markdown: kramdown
 
+excerpt_separator: ""
 
 # Comment
 comment:

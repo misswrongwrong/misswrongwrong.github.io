@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UCL增强学习课程笔记[2]
-date: 2017-11-29 20:45:00 +01:00
+date: 2016-11-29 20:45:00 +01:00
 categories: tech
 tags: RL
 ---

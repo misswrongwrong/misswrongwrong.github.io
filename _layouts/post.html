@@ -10,10 +10,13 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
+   {% include post-tags.html %}
   <section class="post">
     {{ content }}
   </section>
 </article>
+
+
 
 {% include read-more.html %}
 {% include comments.html %}

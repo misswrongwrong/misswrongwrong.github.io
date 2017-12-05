@@ -1,0 +1,27 @@
+---
+layout: post
+title: Supervised learning and imitation [2]
+date: 2017-01-02 20:45:00 +01:00
+categories: tech
+tags: DRL
+---
+## 第二节: Supervised learning and imitation
+*Berkeley课程网站[课件+视频](http://rll.berkeley.edu/deeprlcourse/) 
+
+* 本节内容：
+	* 定义:        序列决定问题
+	* 介绍:        模仿学习
+	* 前沿工作举例:   模仿学习
+	*  缺点:        模仿学习
+
+$$a^2 + b^2 = c^2$$
+
+**1. 强化学习(reinforcement learning）符号。
+强化学习的结果是机器接受观测或状态，经过一定策略来产生行为的，如图1所示。,其中，$$o\_t$$ 表示t时刻的观测， $$x_t$$ 表示t时刻的状态，
+
+我们之后所用的是马尔可夫决策过程（Markov Decision Processes，MDP）即假设当前状态只与上一状态和动作有关，图1中
+
+
+ 
+
+
