@@ -9,7 +9,7 @@ date: 2017-01-12 11:11:11.000000000 +01:00
 **读懂人心，就是读懂世界。**
 
 
-![ ]("/pics/test.jpg" )
+![ ](url('/pics/test.jpg' )
 
 
 [*图片来源*](https://www.express.co.uk/pictures/pics/1939/Man-and-nature-meet) 
