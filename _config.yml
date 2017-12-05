@@ -1,11 +1,11 @@
 # Basic
-title: I'm WRong 
-subtitle: The meaning of life is that it stops. 
-welcome_message: <a href="https://github.com/misswrongwrong/" target="_blank">Nothing</a>
-description: AI, Programming, Reading, Gym and Beautiful things.
-creator: <a href="http://misswrongwrong.github.io">@rong</a>
+title: Vno Jekyll
+subtitle: A blog-orientation theme for Jekyll
+welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: Vno Jekyll is a port of my Ghost theme vno.
+creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://misswrongwrong.github.io" 
+url: "http://vno.onevcat.com"
 
 permalink: /:year/:month/:title/
 
@@ -13,7 +13,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-#cover_color: blue
+cover_color: red
 
 # The blog button should not be removed.
 blog_button:
@@ -21,16 +21,14 @@ blog_button:
     description: Visit blog
 
 # Navigation buttons in the front page.
-#nav:
-#    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-#    # - {title: Another Button, description: A button, url: 'http://example.com'}
+nav:
+    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
 gems: [jekyll-paginate]
 paginate: 10
 paginate_path: "page/:num/"
-
-
 
 # Comment
 comment:
@@ -39,13 +37,13 @@ comment:
     
 # Social
 social:
-    github: rongfeng-china
-    mail: misswrongwong(at)gmail.com
+    weibo: onevcat
+    github: onevcat
+    twitter: onevcat
+    gplus: 107108267983477358170
+    mail: onev@onevcat.com
 
 # Google Analytics
 ga:
     # id: your_ga_id
     # host: your_host
-
-
-
